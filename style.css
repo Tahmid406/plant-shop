@@ -1,0 +1,137 @@
+body {
+  font-family: "Jost", sans-serif;
+}
+.navbar-brand {
+  font-family: "Hind Vadodara", sans-serif;
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+.navbar {
+  padding: 10px 50px;
+}
+.bg-1 {
+  background-image: url("assets/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bg-grad-1 {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 1) 100%);
+}
+.highlight-right {
+  padding: 120px 60px;
+}
+.special-offer {
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 1em;
+  margin-bottom: 35px;
+}
+.offer-highlight-text {
+  font-weight: 800;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+.offer-subtext {
+  font-weight: 500;
+  font-size: 1.2em;
+}
+.shop-now {
+  border-color: black;
+  color: black;
+  border-radius: 0;
+  border-width: 2px;
+  letter-spacing: 2px;
+  padding: 10px 25px;
+  margin-top: 40px;
+}
+
+.showcase {
+  padding: 80px 120px;
+}
+.green-line-sm {
+  height: 3px;
+  width: 10%;
+  background-color: #81ba00;
+}
+.showcase-btn {
+  border: none;
+  background-color: white;
+  border-bottom: 1.5px solid black;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-bottom: 3px;
+}
+.plant-label {
+  margin-top: -40px;
+  font-weight: 600;
+}
+.arrow-box {
+  height: 50px;
+  width: 50px;
+  padding-top: 6px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.arrow-left {
+  left: 8%;
+}
+.arrow-right {
+  right: 4%;
+}
+
+.best-seller-title {
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.best-seller-items {
+  margin-top: 80px;
+  margin-bottom: 160px;
+  padding: 0 120px;
+}
+.best-seller-item-name {
+  font-size: 1.125rem;
+}
+.best-seller-item-price {
+  font-weight: 600;
+  color: #81ba00;
+  font-size: 1.2rem;
+}
+.best-seller-item-price-previous {
+  color: rgba(0, 0, 0, 0.4);
+  margin-right: 5px;
+  text-decoration: line-through;
+}
+
+.plant-types {
+  padding: 0 120px 80px 120px;
+}
+.plant-types-desc {
+  transform: translateY(-50%);
+  top: 50%;
+  left: 40px;
+}
+.plant-types-desc p {
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+.plant-types-desc h4 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.plant-types-desc button {
+  background-color: transparent;
+  text-transform: uppercase;
+  margin-top: 12px;
+  padding: 8px 25px;
+}
