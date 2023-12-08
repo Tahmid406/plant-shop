@@ -22,33 +22,39 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand">Brikkha</a>
-        <div class="d-flex">
-          <a href="#" class="nav-link p-3 text-uppercase" style="font-weight: 500">Home</a>
-          <a href="#" class="nav-link p-3 text-uppercase" style="font-weight: 500">Shop</a>
-          <a href="#" class="nav-link p-3 text-uppercase" style="font-weight: 500">Featured</a>
-          <a href="#" class="nav-link p-3 text-uppercase" style="font-weight: 500">Pages</a>
-          <a href="#" class="nav-link p-3 text-uppercase" style="font-weight: 500">Blogs</a>
-        </div>
-        <div>
-          <i class="bi bi-search p-2" style="-webkit-text-stroke: 0.75px"></i>
-          <i class="bi bi-person p-2" style="-webkit-text-stroke: 0.75px"></i>
-          <i class="bi bi-heart p-2" style="-webkit-text-stroke: 0.75px"></i>
-          <i class="bi bi-cart p-2" style="-webkit-text-stroke: 0.75px"></i>
+        <button class="navbar-toggler border-0">
+          <i class="bi bi-list" style="font-size: 1.6rem"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <div class="d-flex">
+            <a href="#" class="nav-link p-3 text-uppercase" style="font-weight: 500">Home</a>
+            <a href="#" class="nav-link p-3 text-uppercase" style="font-weight: 500">Shop</a>
+            <a href="#" class="nav-link p-3 text-uppercase" style="font-weight: 500">Featured</a>
+            <a href="#" class="nav-link p-3 text-uppercase" style="font-weight: 500">Pages</a>
+            <a href="#" class="nav-link p-3 text-uppercase" style="font-weight: 500">Blogs</a>
+          </div>
+          <div>
+            <i class="bi bi-search p-2" style="-webkit-text-stroke: 0.75px"></i>
+            <i class="bi bi-person p-2" style="-webkit-text-stroke: 0.75px"></i>
+            <i class="bi bi-heart p-2" style="-webkit-text-stroke: 0.75px"></i>
+            <i class="bi bi-cart p-2" style="-webkit-text-stroke: 0.75px"></i>
+          </div>
         </div>
       </div>
     </nav>
 
     <section>
-      <div class="d-flex">
-        <div class="position-relative highlight-left w-50">
+      <div class="d-flex highlight">
+        <div class="position-relative highlight-left w-100">
           <div class="position-absolute bg-1 w-100 h-100"></div>
           <div class="position-absolute bg-grad-1 w-100 h-100"></div>
         </div>
-        <div class="highlight-right w-50">
+        <div class="highlight-right position-relative">
           <p class="special-offer text-uppercase">special offer</p>
           <h1 class="offer-highlight-text">
             Up To 30% Off <br />
@@ -58,13 +64,17 @@
           <button type="button" class="btn btn-outline-secondary shop-now text-uppercase">
             Shop now
           </button>
+          <div class="position-absolute bg-1 bg-1-responsive responsive-sm w-100 h-100"></div>
+          <!-- responsive -->
+          <div class="position-absolute bg-grad-1-responsive responsive-sm w-100 h-100"></div>
+          <!-- responsive -->
         </div>
       </div>
     </section>
 
-    <section class="showcase">
-      <div class="d-flex align-items-center">
-        <div class="w-25 ps-5">
+    <section class="container my-5">
+      <div class="showcase d-flex align-items-center">
+        <div class="w-25 showcase-left d-flex flex-column">
           <h3 class="section-title">SHOP BY CATEGORIES</h3>
           <div class="green-line-sm"></div>
           <div class="d-flex align-items-center my-3">
@@ -74,15 +84,15 @@
               <p class="m-0">Unique Products</p>
             </div>
           </div>
-          <button class="showcase-btn">All Categories</button>
+          <button class="showcase-btn w-50">All Categories</button>
         </div>
-        <div class="w-75 position-relative">
-          <div class="d-flex justify-content-around p-5">
-            <div>
+        <div class="w-75 showcase-right position-relative">
+          <div class="d-flex justify-content-around py-5">
+            <div class="responsive-md-reverse">
               <img src="assets/plants/plant-1.png" alt="" />
               <h5 class="text-center plant-label">Herbs</h5>
             </div>
-            <div>
+            <div class="responsive-md-reverse">
               <img src="assets/plants/plant-2.png" alt="" />
               <h5 class="text-center plant-label">Shrubs</h5>
             </div>
@@ -97,36 +107,34 @@
       </div>
     </section>
 
-    <section class="best-seller">
+    <section class="best-seller pt-5">
       <div class="d-flex align-items-center flex-column">
         <h3 class="section-title text-uppercase best-seller-title">Our Best Seller</h3>
         <div class="green-line-sm"></div>
       </div>
-      <div class="d-flex justify-content-around best-seller-items">
-        <div>
+      <div class="d-flex justify-content-around best-seller-items container">
+        <div class="responsive-md-reverse">
           <img src="assets/plants/plant-4.jpg" alt="" />
           <h6 class="text-center mt-4 best-seller-item-name">Ravenea Houseplant Flower</h6>
           <p class="text-center best-seller-item-price">
             <span class="best-seller-item-price-previous">$20.00</span>$12.00
           </p>
         </div>
-        <div>
+        <div class="responsive-md-reverse">
           <img src="assets/plants/plant-5.jpg" alt="" />
           <h6 class="text-center mt-4 best-seller-item-name">Green Hanging Basket Plant</h6>
           <p class="text-center best-seller-item-price">
             <span class="best-seller-item-price-previous">$30.00</span>$20.00
           </p>
         </div>
-
-        <div>
+        <div class="responsive-md-reverse">
           <img src="assets/plants/plant-6.jpg" alt="" />
           <h6 class="text-center mt-4 best-seller-item-name">Flowerpot Cachepot Rosendahl</h6>
           <p class="text-center best-seller-item-price">
             <span class="best-seller-item-price-previous">$25.00</span>$13.50
           </p>
         </div>
-
-        <div>
+        <div class="">
           <img src="assets/plants/plant-7.jpg" alt="" />
           <h6 class="text-center mt-4 best-seller-item-name">Ravenea Houseplant Flower</h6>
           <p class="text-center best-seller-item-price">
@@ -136,7 +144,7 @@
       </div>
     </section>
 
-    <section class="plant-types">
+    <!-- <section class="container pb-5">
       <div class="d-flex justify-content-center">
         <div class="d-flex position-relative mx-5">
           <img src="assets/type-1.jpg" alt="" />
@@ -155,7 +163,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <footer class="bg-white text-center text-lg-start">
       <hr class="my-0" />
